@@ -1,0 +1,23 @@
+#gallery{
+    width: 100%;
+    position: absolute;
+    top: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+#gallery .mask img{
+    position: relative;
+    height: 250px;
+}
+
+.mask{
+    float: left;
+    overflow: hidden;
+    height: 250px;
+    width: 260px;
+}
+

@@ -1,0 +1,41 @@
+
+<div class="nav">
+    <ul>
+      <li><a routerLink="/home" (click)="navig('home')">home</a></li>
+      <li><a routerLink="/about" (click)="navig('about')">about</a></li>
+      <li><a routerLink="/contact" (click)="navig('contact')">contact</a></li>
+      <li><a routerLink="/booking"(click)="navig('booking')">booking</a></li>
+    </ul>
+  </div>
+<div align="center" class="form-container">
+    <h1>Bookings</h1>
+  <body>
+  name:<br>
+  <input type="text" id="firstname" [(ngModel)]="firstname"  placeholder="Enter your Name"><br>
+  surname:<br>
+  <input type="text" id="surname" [(ngModel)]="surname" placeholder="Enter your Surname"><br>
+  email:<br>
+  <input type="text" id="email" [(ngModel)]="email" placeholder="Enter your Email"><br>
+  address:<br>
+  <input type="text" id="address" [(ngModel)]="address" placeholder="Enter your Address"><br>
+  city:<br>
+  <input type="text" id="city" [(ngModel)]="city"  placeholder="Enter your City"><br>
+  age:<br>
+  <input type="text" id="age" [(ngModel)]="age"  placeholder="Enter your Age"><br>
+  checkin:<br>
+  <input type="text" id="checkin" [(ngModel)]="checkin" placeholder="dd/mm/yyyy"><br>
+  checkout:<br>
+  <input type="text" id="checkout" [(ngModel)]="checkout" placeholder="dd/mm/yyyy"><br>
+  contacts:<br>
+  <input type="text" id="contact" [(ngModel)]="contact" placeholder="Enter your cellno"><br>
+
+ <button (click)="onLogin()">Submit</button>
+
+</body>
+</div>
+<div>
+    
+    <footer>
+      <p>Created by Petunia</p>
+    </footer>
+  </div>

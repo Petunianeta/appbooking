@@ -1,0 +1,18 @@
+.request{
+    height: 200px;
+    width:200px;
+}
+bodybody{
+    background: url(https://pixabay.com/get/e83cb6062cf4073ed1584d05fb0938c9bd22ffd41cb3184595f5c07ea7/hotel-1979406_1280.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+input{
+    width: 500px;
+}
+button{
+    height:50px;
+    width:200px;
+    margin-top:10px;
+}

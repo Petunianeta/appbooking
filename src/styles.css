@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background: url(../src/assets/imgs/bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    border: 10px solid wheat;
+    background-color: wheat;
+
+}
+ ul li {
+    display: inline;
+    margin-right: 5%;
+
+}
